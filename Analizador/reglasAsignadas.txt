@@ -1,0 +1,17 @@
+*******************************
+*    REGLAS DE DERIVACION     *
+*******************************
+
+ALPHABET-CLAUSE ::= 'ALPHABET' ALPHABET-NAME ['IS']('STANDARD-1'|'STANDARD-2'|'NATIVE'|'EBCDIC')
+
+SPECIAL-NAMES-PARAGRAPH-CLAUSES ::= ({SYMBOLIC-CHARACTERS-CLAUSE}*)|{CLASS-CLAUSE}*
+
+CURRENCY-SIGN-CLAUSE ::= 'CURRENCY'['SIGN']['IS'] LITERAL
+-----------------------------------------------------------------------------------------------------
+ALPHABET-NAME ::= 'ALPNAME'
+
+SYMBOLIC-CHARACTERS-CLAUSE ::= 'SYMBOLIC'
+
+CLASS-CLAUSE ::= 'CLASS'
+
+LITERAL ::= 'LIT'
